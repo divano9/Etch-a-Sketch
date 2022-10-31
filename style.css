@@ -1,0 +1,18 @@
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.square{
+    float: right;
+    margin: 0;
+    padding: 0;
+    border: 1px green solid;
+    width: 57px;
+    height: 57px;
+}
+
+.hover{
+    background-color: aquamarine;
+}
