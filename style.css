@@ -1,18 +1,35 @@
+.wrapper{
+    text-align: center;
+}
+
 .container {
-    max-width: 970px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 0;
+    outline: aquamarine solid 3px;
+    display: inline-block;
 }
 
 .square{
     float: right;
     margin: 0;
     padding: 0;
-    border: 1px green solid;
     width: 57px;
-    height: 57px;
+    opacity: 10%;height: 57px;
+
 }
 
 .hover{
-    background-color: aquamarine;
+    background-color: aquamarine;  
+}
+
+button{
+    padding: 25px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#erace{
+    left: 70px;
 }
